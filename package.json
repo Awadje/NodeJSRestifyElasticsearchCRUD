@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "New backend for 216 portaal",
+  "main": "server.js",
+  "dependencies": {
+    "elasticsearch": "^13.3.1",
+    "restify": "^6.0.0",
+    "restify-errors": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Alexander Meesters <meesters.alexander@216.nl>",
+  "license": "ISC"
+}
